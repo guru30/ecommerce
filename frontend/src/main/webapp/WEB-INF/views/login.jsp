@@ -17,7 +17,7 @@ body
 {
 	margin:0px;
 	padding:0px;
-        background-image:url(images/cag.jpg);
+        background-image:url(images/dag.jpg);
 	background-repeat:no-repeat;
 	background-size:100% 700px;
 }
@@ -51,7 +51,7 @@ body
  </c:if></div>
  
  
- <div class="container col-md-7 col-md-offset-4" style="margin-top:100px;">
+ <div class="container col-md-7 col-md-offset-4" style="margin-top:80px;">
   <h2>Login Here</h2>
 	
   <form:form action="login" method="post" class="form-horizontal">

@@ -47,7 +47,7 @@
 				<a class="navbar-brand" href="index">Home</a>&nbsp;
 				<a class="navbar-brand" href="aboutus">AboutUs</a>&nbsp;
 				<a class="navbar-brand" href="contactus">Contactus</a>
-        <a class="navbar-brand" data-toggle="dropdown" href="">Products
+        <a class="navbar-brand" data-toggle="dropdown" href="">Categories
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="listedItem.jsp">Mobiles and Tablets</a></li>

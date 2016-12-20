@@ -174,6 +174,19 @@ String email=p.getName();
 			}
 		return "login";
 		}
+	@RequestMapping("/viewUsers")
+	public String Listuser(Model model)
+	{
+		List<User> list = userDao.list();
+		model.addAttribute("users", list);
+		return "UserList";
+	}
+	@RequestMapping("/delete/{name}")
+	public String Users(@ModelAttribute ("name") User name){
+	
+	userDao.delete(name);
+	return "redirect:/viewUsers";
+	}
 		    
 	@RequestMapping("cart/logout")
 	public ModelAndView logout(HttpServletRequest request){

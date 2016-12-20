@@ -24,6 +24,7 @@
 <div class="text-center"><h3 class="text-danger">Manage Categories: <a href="viewCategories" class="btn btn-warning" role="button"> View </a>  |  <a href="addcategory" class="btn btn-info" role="button" >ADD</a> <br></h3></div>
 <div class="text-center"><h3 class="text-green">Manage Products  : <a href="viewProducts"class="btn btn-warning" role="button">   View </a>  | <a href="addproduct"class="btn btn-info" role="button"> Add</a>  <br></h3></div>
 <div class="text-center"><h3 class="text-warning">Manage Suppliers : <a href="viewSuppliers"class="btn btn-warning" role="button">  View </a>  | <a href="addsupplier"class="btn btn-info" role="button">Add</a>  </br></h3></div>
+<div class="text-center"><h3 class="text-warning">Manage Users From Database: <a href="viewUsers"class="btn btn-warning" role="button">  View </a>   </br></h3></div>
 <c:if test="${not empty isAddCategoryClicked}">
 </c:if>
 <c:if test="${not empty isViewCategoriesClicked}">
